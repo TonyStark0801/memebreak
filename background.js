@@ -1,9 +1,7 @@
-var url;
-var reloadInterval;
-
-const slider = document.getElementById("slider");
 const value = document.getElementById("value");
+const slider = document.getElementById("slider");
 const doneButton = document.getElementById("done-button");
+var y;
 
 value.innerHTML = "Time: " + slider.value + " minutes";
 
@@ -12,14 +10,20 @@ slider.oninput = (e) => {
 };
 
 doneButton.onclick = (e) => {
-    reloadInterval = slider.value * 60 * 1000;
+    y = slider.value * 6 * 100;
     if (slider.value == 1)
-        alert("Time set! You'll be updated with memes in a minute");
-    else
-        alert(
-            "Time set! You'll be updated with memes in " + slider.value + " minutes."
-        );
-    window.close();
+        alert("Time set! You'll be updated with memes in a minute" + y);
+    else alert("Time set! You'll be updated with memes in " + y + " minutes.");
+    console.log("hi");
+    timeout();
+
+    function timeout() {
+        setTimeout(function() {
+            windowOpener();
+        }, y);
+        clearInterval();
+    }
+    // window.close();
 };
 
 function windowOpener() {
@@ -29,4 +33,3 @@ function windowOpener() {
         type: "popup",
     });
 }
-setTimeout(windowOpener, 5000);
