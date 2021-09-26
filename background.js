@@ -13,7 +13,7 @@ doneButton.onclick = (e) => {
     y = slider.value * 60 * 1000;
     if (slider.value == 1)
         alert("Time set! You'll be updated with memes in a minute.");
-    else alert("Time set! You'll be updated with memes in " + y + " minutes.");
+    else alert("Time set! You'll be updated with memes in " + slider.value + " minutes.");
     timeout();
 
     function timeout() {
