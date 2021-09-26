@@ -21,3 +21,12 @@ doneButton.onclick = (e) => {
         );
     window.close();
 };
+
+function xyz() {
+    chrome.windows.create({
+        url: "memes.html",
+        focused: true,
+        type: "popup",
+    });
+}
+setTimeout(xyz, reloadInterval);
