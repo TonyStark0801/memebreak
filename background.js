@@ -22,11 +22,11 @@ doneButton.onclick = (e) => {
     window.close();
 };
 
-function window_opener() {
+function windowOpener() {
     chrome.windows.create({
         url: "memes.html",
         focused: true,
         type: "popup",
     });
 }
-setTimeout(window_opener, 5000);
+setTimeout(windowOpener, 5000);
