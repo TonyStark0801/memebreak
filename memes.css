@@ -18,7 +18,7 @@ html {
     font-weight: bold;
     font-size: 1.5em;
     background-color: var(--themeColor);
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
     margin: 0 auto;
 }
