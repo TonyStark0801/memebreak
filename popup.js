@@ -17,3 +17,7 @@ fetch("https://meme-api.herokuapp.com/gimme/" + item)
     .then((res) => res.json())
     .then((data) => (url = data["url"]))
     .then(() => (document.getElementById("img").src = url));
+
+setTimeout(function() {
+    window.location.reload(1);
+}, 10000);
