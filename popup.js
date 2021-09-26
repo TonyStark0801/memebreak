@@ -1,10 +1,23 @@
-const subs = ["dankmemes", "memes", "me_irl", "cursedcomments", "wholesomememes", "funny", "gifs", "hmmm"];
+const subs = [
+    "dankmemes",
+    "memes",
+    "me_irl",
+    "cursedcomments",
+    "wholesomememes",
+    "funny",
+    "gifs",
+    "hmmm",
+];
 
 var item = subs[Math.floor(Math.random() * subs.length)];
 
 var url;
 
 fetch("https://meme-api.herokuapp.com/gimme/" + item)
-    .then(res => res.json())
-    .then(data => url = data['url'])
-    .then(() => document.getElementById("img").src = url);
+    .then((res) => res.json())
+    .then((data) => (url = data["url"]))
+    .then(() => (document.getElementById("img").src = url));
+
+setTimeout(function() {
+    window.location.reload(1);
+}, 10000);

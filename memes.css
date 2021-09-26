@@ -1,0 +1,40 @@
+:root {
+    --themeColor: black;
+}
+
+html {
+    background-color: white;
+}
+
+#img {
+    margin: 0 auto;
+    display: block;
+}
+
+#next {
+    padding: 10px 40px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    background-color: var(--themeColor);
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.next {
+    margin: 0 auto;
+}
+
+a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 0em;
+    margin: 0 auto;
+}
+
+a:hover {
+    color: rgb(95, 93, 93);
+}

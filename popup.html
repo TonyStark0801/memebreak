@@ -1,14 +1,18 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
+
 <head>
-    <title>
-        memebreak
-    </title>
-    <script src="jquery-3.6.0.min.js"></script>
-    <script src = "popup.js"></script>
-    <link rel="stylesheet" href="popup.css">
+    <title>memebreak</title>
+    <link rel="stylesheet" href="popup.css" />
 </head>
+
 <body>
-    <img src="" id="img" height="550px" width="auto">
-    <a href="popup.html" target=""><h2>NEXT</h2></a>
-    <!-- Timer function -->
+    <div class="memebreak">
+        <div id="container">
+            <img src="master.png" alt="" height="250px" width="auto" />
+            <p id="value">Time: 30 minutes</p>
+            <input type="range" min="1" max="60" value="30" id="slider" />
+            <button id="done-button">Done</button>
+        </div>
+    </div>
+    <script src="background.js"></script>
 </body>
