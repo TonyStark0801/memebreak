@@ -12,7 +12,7 @@ slider.oninput = (e) => {
 };
 
 doneButton.onclick = (e) => {
-    reloadInterval = slider.value * 60 * 100;
+    reloadInterval = slider.value * 60 * 1000;
     if (slider.value == 1)
         alert("Time set! You'll be notified with memes in a minute");
     else
@@ -21,12 +21,3 @@ doneButton.onclick = (e) => {
         );
     window.close();
 };
-
-function xyz() {
-    chrome.windows.create({
-        url: "memes.html",
-        focused: true,
-        type: "popup",
-    });
-}
-setTimeout(xyz, 1000);
