@@ -39,7 +39,7 @@ Clone the Repository
 
 <img src="https://user-images.githubusercontent.com/90902223/134907889-30b61982-0885-4b10-a523-39c6158d26d0.png" width="400px" height="auto"/>
 
-6. After uploading the extension to Google Chrome, you will can see the extension by clicking the 🧩 icon. ![Screenshot 2021-09-27 at 18 07 01](https://user-images.githubusercontent.com/90902223/134909403-9f0a2f6d-4012-428f-8f1a-875e79aff034.png)
+6. After uploading the extension to Google Chrome, you will can see the extension by clicking the 🧩 icon. <!-- ![Screenshot 2021-09-27 at 18 07 01](https://user-images.githubusercontent.com/90902223/134909403-9f0a2f6d-4012-428f-8f1a-875e79aff034.png) -->
 
 ![Screenshot 2021-09-27 at 18 04 56](https://user-images.githubusercontent.com/90902223/134909501-7c00a46a-0ffe-4016-afa9-5e20db529bd5.png)
 
