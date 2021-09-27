@@ -51,7 +51,7 @@ Clone the Repository
 
 <img src="https://user-images.githubusercontent.com/90902223/134910747-c51c7fed-aaf0-4ae0-af9b-b1fbea183545.png" width="500px" height="auto"/>
 
-9. After the selected time, a chrome popup window will open, this window will have the memes! The memes in the window will change automatically after every 20 seconds by default but if you're a fast reader you can skip the meme with the `NEXT` button.
+9. After the selected time (X minutes), a chrome popup window will open after every X minutes, this window will have the memes! The memes in the window will change automatically after every 20 seconds by default but if you're a fast reader you can skip the meme with the `NEXT` button.
 
 <img src="https://user-images.githubusercontent.com/90902223/134912026-28740e17-0e8f-43d4-be92-fe24a9ca1b3a.png"/>
 
