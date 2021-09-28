@@ -1,26 +1,28 @@
 :root {
-    --themeColor: black;
+    --themeColor: white;
 }
 
 html {
-    background-color: white;
+    background-color: black;
 }
 
 #img {
     margin: 0 auto;
+    margin-top: 50px;
     display: block;
 }
 
 #next {
+
     display: block;
     margin: 40px auto;
     padding: 10px 40px;
     border: none;
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 1.5em;
     background-color: var(--themeColor);
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
 }
 
