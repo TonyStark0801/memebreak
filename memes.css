@@ -13,7 +13,10 @@ html {
 }
 
 #next {
-    padding: 10px 30px;
+
+    display: block;
+    margin: 40px auto;
+    padding: 10px 40px;
     border: none;
     color: black;
     font-weight: bold;
@@ -21,23 +24,13 @@ html {
     background-color: var(--themeColor);
     border-radius: 30px;
     cursor: pointer;
-    margin: 0 auto;
 }
 
-.next {
-    margin: 0 auto;
-    margin-top: 55px;
+a {
     text-align: center;
     text-decoration: none;
 }
 
-a{
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    margin: 0 auto;
-}
-
-a:hover {
-    color: rgb(95, 93, 93);
+#next:hover {
+    background-color: rgb(53, 53, 53);
 }

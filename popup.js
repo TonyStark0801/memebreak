@@ -20,4 +20,5 @@ fetch("https://meme-api.herokuapp.com/gimme/" + item)
 
 setTimeout(function() {
     window.location.reload(1);
-}, 20000);
+}, 30000);
+

@@ -1,4 +1,3 @@
-# memebreak
 <p align = "center">
   <img src="https://github.com/ShwaasA/memebreak/blob/main/master.png"/ width="300px" height="auto">
 </p>
