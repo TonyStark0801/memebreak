@@ -6,7 +6,7 @@
 ## About 
 <p align ="justify">
   This project was made for the 2021 <a href="https://hackapalooza.dev" target="_blank">Hackapalooza</a> Hackathon. (Winner of the Best Beginner Hack prize).   
-"memebreak" aims to distract you while you are working, ruin your productivity, and give you much needed breaks in lengthy computer sessions with memes which open up in a new window after a specified time! However, we do respect important meetings and have implemented a system to delay a meme by up to 1 hour because a meeting longer than that isn't worth going to without memes! On that note, let's talk about the memes, the memes are sourced from <a href="https://reddit.com">Reddit</a> and are filtered to exclude any Not Safe For Work(NSFW) posts. There is even a never ending NEXT button with which you can get lost in the world of instant gratification!
+"memebreak" aims to distract you while you are working, ruin your productivity, and give you much needed breaks in lengthy computer sessions with memes which open up in a new window after a specified time! However, we do respect important meetings and have implemented a system to delay a meme by up to 1 hour because a meeting longer than that isn't worth going to without memes! On that note, let's talk about the memes, the memes are sourced from <a href="https://reddit.com">Reddit</a> and are filtered to exclude any Not Safe For Work(NSFW) posts. There is even a NEXT feauture with which you can get lost in a never ending world of instant gratification!
 </p>
 
 ## Getting Started 
