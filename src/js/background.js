@@ -10,10 +10,11 @@ slider.oninput = (e) => {
 };
 
 doneButton.onclick = (e) => {
-    y = slider.value * 60 * 1000;
+    y = slider.value * 6 * 100;
     if (slider.value == 1)
-        alert("Time set! You'll be updated with memes in a minute.");
-    else alert("Time set! You'll be updated with memes in " + slider.value + " minutes.");
+        alert("Time set! You'll be updated with memes in a minute" + y);
+    else alert("Time set! You'll be updated with memes in " + y + " minutes.");
+    console.log("hi");
     timeout();
 
     function timeout() {
@@ -32,4 +33,3 @@ function windowOpener() {
         type: "popup",
     });
 }
-
