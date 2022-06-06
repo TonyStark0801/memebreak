@@ -3,18 +3,17 @@ const slider = document.getElementById("slider");
 const doneButton = document.getElementById("done-button");
 var y;
 
-value.innerHTML = "Time: " + slider.value + " minutes";
+// value.innerHTML = "Time: " + slider.value + " minutes";
 
 slider.oninput = (e) => {
     value.innerHTML = "Time: " + e.target.value + " minutes";
 };
 
 doneButton.onclick = (e) => {
-    y = slider.value * 6 * 100;
-    if (slider.value == 1)
-        alert("Time set! You'll be updated with memes in a minute" + y);
-    else alert("Time set! You'll be updated with memes in " + y + " minutes.");
-    console.log("hi");
+    y = slider.value ;
+    // if (slider.value == 1)
+    alert(`Time set! You'll be updated with memes in ${y} minute`);
+    // else alert("Time set! You'll be updated with memes in " + y + " minutes.");
     timeout();
 
     function timeout() {
