@@ -3,14 +3,12 @@
 }
 
 #container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     font-family: "Poppins", sans-serif;
-    justify-content: space-evenly;
-    height: 500px;
-    width: 500px;
-    border: 5px solid var(--themeColor);
+    height: 150px;
+    width: 350px;
+    background-color: white;
+    
+    border: 2px solid var(--themeColor);
 }
 
 #container h1 {
@@ -24,12 +22,14 @@
 }
 
 #slider {
-    width: 75%;
+    width: 55%;
 }
 
 #done-button {
     padding: 10px 40px;
     border: none;
+    margin-left: 30px;
+    margin-top: 10px;
     color: white;
     font-weight: bold;
     font-size: 1.5em;
@@ -40,4 +40,17 @@
 
 #done-button:hover {
     background-color: rgb(50, 50, 50);
+}
+
+img{
+    float:left;
+    padding: 15px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+}
+#value{
+    margin-top: 13px;
+    padding-top: 20px;
+    padding-left: 151px;
+    margin-bottom: 1px;
 }
