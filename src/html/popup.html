@@ -2,17 +2,20 @@
 
 <head>
     <title>memebreak</title>
-    <link rel="stylesheet" href="popup.css" />
+    
+    <link rel="stylesheet" href="../css/popup.css" />
 </head>
 
 <body>
     <div class="memebreak">
         <div id="container">
-            <img src="master.png" alt="" height="250px" width="auto" />
-            <p id="value">Time: 1 minute</p>
+            <img class="row-1" src="../../images/icon128.png" id="meme" style="width:auto; height: 100px;"  />
+
+            <p id="value">Time: 1 Min</p>
             <input type="range" min="1" max="60" value="1" id="slider" />
-            <button id="done-button">Done</button>
+            <button id="done-button" >Done</button>
+            <p style="font-size: 15px; " id="afterclick"></p>
         </div>
     </div>
-    <script src="background.js"></script>
+    <script src="../js/popup.js"></script>
 </body>
