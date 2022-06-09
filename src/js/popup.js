@@ -1,7 +1,7 @@
 const value = document.getElementById("value");
 const slider = document.getElementById("slider");
-const doneButton = document.getElementById("done-button");
-var y;
+var doneButton = document.getElementById("done-button")
+var time;
 
 
 //Changing values as per slider
@@ -10,25 +10,24 @@ slider.oninput = (e) => {
 };
 
 //Getting event from done button
-var x = document.getElementById("done-button")
-x.addEventListener('click',function(){
-    x.style.display="none";           //Disappear Done button
-    y = slider.value ;                //storing value of slider
+doneButton.addEventListener('click',function(){
+    doneButton.style.display="none";           //Disappear Done button
+    time = slider.value ;                      //storing value of slider
 
     //String replacing done button
     if (slider.value == 1)
-    document.getElementById("afterclick").innerText=`Time set! You'll be updated with memes in ${y} Minute`
+        document.getElementById("afterclick").innerText=`Time set! You'll be updated with memes in ${time} Minute`
     else
-    document.getElementById("afterclick").innerText=`Time set! You'll be updated with memes in ${y} Minute`
+        document.getElementById("afterclick").innerText=`Time set! You'll be updated with memes in ${time} Minute`
 
     //alarm information
-    var alarmInfo={
-        delayInMinutes: parseInt(y)
-    
+    var alarmInfo = {
+        delayInMinutes: parseInt(time)
     }
+
     //create alarm
     chrome.alarms.create("memes",alarmInfo)
-    
+
     //Automatically disappear popup after 1 second
-    setTimeout(() => {  window.close() }, 1000);
+    setTimeout(() => { window.close() }, 1000);
 });
