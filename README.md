@@ -1,5 +1,5 @@
 <p align = "center">
-  <img src="https://github.com/ShwaasA/memebreak/blob/main/master.png"/ width="300px" height="auto">
+  <img src="https://i.imgur.com/2OLhki4.png"/ width="300px" height="auto">
 </p>
 
 ## About 
